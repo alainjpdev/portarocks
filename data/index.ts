@@ -1,4 +1,5 @@
 export const navItems = [
+  { name: "Home", link: "#home"},
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
@@ -103,25 +104,22 @@ export const testimonials = [
       "Collaborating with Jean Paul was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Jean Paul's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Jean Paul is the ideal partner.",
     name: "Mark Desrochers",
     title: "Director of Desrochers Real Estate",
+    
   },
   {
     quote:
       "Jean Paul was my former manager at Waves Property Management and played a key role in the early development of MicasApp. His experience in property operations and guest services helped shape the vision and functionality of the platform. ",
     name: "Angelo Gil",
     title: "Director of Waves Property Management",
-    img:"/appName.svg"
+  
+    img: "angelo.svg"
   },
 
 ];
 
 export const companies = [
   
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
+ 
   {
     id: 3,
     name: "HOSTINGER",
@@ -145,15 +143,15 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Web App Developer",
+    desc: "Developed a web-based platform using React.js to enhance interactivity, and built the Moke Tulum web app to enable users to purchase customized vehicles.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Mobile App Dev",
+    desc: "Designed and developed mobile app Selling Paradise for both iOS & Android platforms using React Native Expo.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },

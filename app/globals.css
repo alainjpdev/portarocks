@@ -68,8 +68,13 @@
 
 @layer base {
   * {
-    @apply border-border !scroll-smooth;
+    @apply border-border;
   }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply bg-background text-foreground;
   }
@@ -82,4 +87,7 @@
   .heading {
     @apply font-bold text-4xl md:text-5xl text-center;
   }
+}
+section[id] {
+  scroll-margin-top: 120px; /* Compensa el navbar flotante */
 }

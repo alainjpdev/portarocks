@@ -1,3 +1,4 @@
+"use client";
 import { FaLocationArrow } from "react-icons/fa6";
 
 import MagicButton from "./MagicButton";
@@ -57,7 +58,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Jean Paul, a Next.js Developer and Artificial Intelligence based in Mexico.
+            Hi! I&apos;m Jean Paul, a FullStack Developer and Artificial Intelligence based in Mexico.
           </p>
 
           <a href="#about">

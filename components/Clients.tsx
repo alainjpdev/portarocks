@@ -19,10 +19,15 @@ const Clients = () => {
           className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden"
         >
           <InfiniteMovingCards
-            items={testimonials}
-            direction="right"
-            speed="slow"
-          />
+          items={testimonials.map((t) => ({
+            quote: t.quote,
+            name: t.name,
+            title: t.title,
+            image: t.img ?? "/profile.svg", // usa default si no hay img
+          }))}
+          direction="right"
+          speed="slow"
+        />
         </div>
 
         <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">

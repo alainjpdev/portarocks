@@ -1,5 +1,15 @@
+"use client";
+
 import { gridItems } from "@/data";
-import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
+import dynamic from "next/dynamic";
+
+// Importar dinámicamente sin SSR
+const BentoGrid = dynamic(() => import("./ui/BentoGrid").then(m => m.BentoGrid), {
+  ssr: false,
+});
+const BentoGridItem = dynamic(() => import("./ui/BentoGrid").then(m => m.BentoGridItem), {
+  ssr: false,
+});
 
 const Grid = () => {
   return (
@@ -11,8 +21,6 @@ const Grid = () => {
             key={i}
             title={item.title}
             description={item.description}
-            // remove icon prop
-            // remove original classname condition
             className={item.className}
             img={item.img}
             imgClassName={item.imgClassName}
