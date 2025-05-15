@@ -57,9 +57,9 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Jean Paul, a FullStack Developer and Artificial Intelligence based in Mexico.
-          </p>
+        <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+          Hi! I&apos;m Jean Paul — a Full-Stack Developer with a passion for Artificial Intelligence, proudly based in Mexico.
+        </p>
 
           <a href="#projects">
             <MagicButton
