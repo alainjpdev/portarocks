@@ -74,7 +74,7 @@ export const projects = [
   {
     id: 1,
     title: "AI Telegram Agent",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    des: "Smart chatbot integrated with Telegram that uses artificial intelligence to understand and respond to user queries in real-time.",
     img: "/pp1.svg",
     iconLists: ["/re.svg", "/tele.svg", "/ts.svg", "/next.svg", "/supa.svg"],
     link: "https://github.com/alainjpdev/agenteJean",
